@@ -219,7 +219,8 @@ class ProfileSubmenu
             ]);
         }
 
-        if ($parameters['family_or_friend']) {
+/*        if ($parameters['family_or_friend']) {
+
             $this->addSubmenuItem('family_or_friend', [
                 'key' => 'profile.relation.edit',
                 'icon' => 'handshake',
@@ -232,7 +233,7 @@ class ProfileSubmenu
                 'url' => $this->routing->generate('add_relation', ['username' => $username]),
             ]);
         }
-
+*/
         if ($parameters['note']) {
             $this->addSubmenuItem('edit_note', [
                 'key' => 'NoteEditMyNotesOfMember',
